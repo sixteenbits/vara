@@ -1,6 +1,0 @@
-{
-    "terminal.integrated.env.linux": {
-        "PATH": "/home/gasdistri/.platformio/penv/bin:/home/gasdistri/.platformio/penv:/home/gasdistri/.pyenv/plugins/pyenv-virtualenv/shims:/home/gasdistri/.pyenv/shims:/home/gasdistri/.pyenv/bin:/home/gasdistri/.pyenv/shims:/home/gasdistri/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/gasdistri/.pyenv/bin",
-        "PLATFORMIO_CALLER": "vscode"
-    }
-}
