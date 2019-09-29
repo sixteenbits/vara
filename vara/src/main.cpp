@@ -4,8 +4,8 @@
 #include "MPU9255.h"        // IMU - include MPU9255 library
 
 // WiFi ----------------------------------------------------------------
-const char* ssid = "Klinaap";
-const char* password = "klinton10";
+const char* ssid = "JAMTODAY_Aula1";
+const char* password = "JamAl4_2019";
 WiFiClient esp_client;
 
 void setup_wifi() {
@@ -25,7 +25,7 @@ void setup_wifi() {
   Serial.println(WiFi.localIP());
 }
 // MQTT ----------------------------------------------------------------
-const char* rpi_broker = "192.168.43.215";
+const char* rpi_broker = "172.26.27.102";
 PubSubClient client(esp_client);
 const char* topic = "jamtoday/vara";
 long lastMsg = 0;
